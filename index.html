@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript" src="static/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="static/Samaritan.js"></script>
+
+<script type="text/javascript">
+//function Update() {
+	//$.ajax({
+		//type: "POST",
+		//url: "ppost",
+		//contentType: "application/json",
+		////contentType: "application/x-www-form-urlencoded",
+		//processData: false,
+		//data: $("#updatebox").val(),
+		////data: "=========>>>> Hello I am POST data",
+		////success: function(data) {alert(data);},
+		//dataType: "text" });
+	//}
+</script>
+
+<script type="text/javascript">
+//function Update() {
+	////var sam1 = new Samaritan({send:{file:"http://localhost:8080/ppost/"}}); 
+	var sam1 = new Samaritan({send:{file:"ppost"}}); 
+//}
+</script>
+</head>
+<body>
+	<input type="textbox" id="updatebox" value="{}" size="20" />
+	<input type="submit" value="Update" onClick="Update(); return false" />
+</body>
+
+</html>
